@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  /* position: fixed; */
+  /* border: solid blue; */
+}
+
+.Cardapio {
+  display: none;
+}
+
+header section {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  font-weight: 700;
+  font-size: 1rem;
+  /* border: solid red; */
+}
+
+li {
+  list-style: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  /* border: solid red; */
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  font-weight: 300;
+  font-size: 12px;
+  /* border: solid green; */
+}
+
+.headerListBold {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.mainTitle {
+  background-image: url(./Desktop/Background.png);
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid red; */
+}
+
+.mainTitleDiv {
+  height: 50%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 1);
+  /* border: solid blue; */
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+main p {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.mainImages {
+  height: 170vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid blue; */
+}
+
+.divImages {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: solid green; */
+}
+
+main img {
+  height: 45vh;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: rgba(246, 246, 246, 1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  /* border: solid blue; */
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+  /* border: solid blue; */
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  width: 70%;
+  /* border: solid green; */
+}
+
+footer img {
+  height: 4vh;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  /* border: solid red; */
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+footer p {
+  width: 70%;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    justify-content: space-between;
+    height: 5vh;
+    /* border: solid blue; */
+  }
+
+  .Cardapio {
+    display: initial;
+    background-color: rgba(12, 5, 0, 1);
+    width: 30%;
+    height: 100%;
+  }
+
+  header section {
+    width: 60%;
+    /* border: solid red; */
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .mainTitle {
+    background-image: url(./Mobile/laranja\ azul\ recorte.png);
+    /* height: 0vh; */
+    align-items: flex-end;
+    /* border: solid red; */
+  }
+
+  .mainImages {
+    flex-direction: column;
+    height: 590vh;
+    /* border: solid blue; */
+  }
+
+  .divImages {
+    margin-top: 3rem;
+    height: 580vh;
+    width: 80%;
+    /* border: solid green; */
+  }
+
+  main img {
+    height: 45vh;
+  }
+
+  footer {
+    background-color: rgba(255, 255, 255, 1);
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25vh;
+    /* border: solid blue; */
+  }
+
+  footer nav {
+    background-color: rgba(127, 219, 212, 1);
+    width: 80%;
+    /* border: solid blue; */
+  }
+
+  footer ul {
+    height: 8vh;
+    width: 100%;
+    /* border: solid green; */
+  }
+
+  footer section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    /* border: solid red; */
+  }
+
+  footer h3 {
+    font-size: 10px;
+  }
+
+  footer p {
+    width: 60%;
+  }
+}
