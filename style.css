@@ -101,7 +101,7 @@ main p {
 }
 
 .divImages {
-  width: 85%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
